@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Youbike API Client",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "keywords": [
     "youbike",
     "api"
   ],
-  "author": "Kayxue",
+  "author": "kayxue",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^16.0.0",
