@@ -1,4 +1,4 @@
-export interface TaipeiData {
+export interface DataBase<K> {
     sno: string;
     sna: string;
     tot: string;
@@ -12,58 +12,20 @@ export interface TaipeiData {
     snaen: string;
     aren: string;
     bemp: string;
-    act: string;
+    act: K;
 }
-export interface TaoYuanData {
+export interface TaipeiData extends DataBase<string> {
+}
+export interface TaoYuanData extends DataBase<string> {
     _id: number;
-    sno: string;
-    sna: string;
-    tot: string;
-    sbi: string;
-    sarea: string;
-    mday: string;
-    lat: string;
-    lng: string;
-    ar: string;
-    sareaen: string;
-    snaen: string;
-    aren: string;
-    bemp: string;
-    act: string;
 }
-export interface TaiChungData {
-    sno: string;
-    sna: string;
-    tot: string;
-    sbi: string;
-    sarea: string;
-    mday: string;
-    lat: string;
-    lng: string;
-    ar: string;
-    sareaen: string;
-    snaen: string;
-    aren: string;
-    bemp: string;
-    act: string;
-}
-export interface KaoHsiungData {
+export interface TaiChungData extends DataBase<number> {
     scity: string;
     scityen: string;
-    sna: string;
-    sarea: string;
-    ar: string;
-    snaen: string;
-    sareaen: string;
-    aren: string;
-    sno: string;
-    tot: string;
-    sbi: string;
-    mday: string;
-    lat: string;
-    lng: string;
-    bemp: string;
-    act: number;
+}
+export interface KaoHsiungData extends DataBase<number> {
+    scity: string;
+    scityen: string;
 }
 export interface TypeDict {
     "臺北市": TaipeiData;
