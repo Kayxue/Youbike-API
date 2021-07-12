@@ -1,6 +1,6 @@
 {
   "name": "youbike-api",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Youbike API Client",
   "main": "src/index.js",
   "types": "src/index.d.ts",

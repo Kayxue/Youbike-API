@@ -6,8 +6,7 @@ const DataUrl = {
     "臺中市": "	https://datacenter.taichung.gov.tw/swagger/OpenData/9af00e84-473a-4f3d-99be-b875d8e86256",
     "高雄市": "https://api.kcg.gov.tw/api/service/Get/b4dd9c40-9027-4125-8666-06bef1756092"
 }
-
-export interface TaipeiData {
+export interface DataBase<K>{
     sno: string,
     sna: string,
     tot: string,
@@ -21,63 +20,25 @@ export interface TaipeiData {
     snaen: string,
     aren: string,
     bemp: string,
-    act: string
+    act: K
 }
 
-export interface TaoYuanData {
-    _id: number,
-    sno: string,
-    sna: string,
-    tot: string,
-    sbi: string,
-    sarea: string,
-    mday: string,
-    lat: string,
-    lng: string,
-    ar: string,
-    sareaen: string,
-    snaen: string,
-    aren: string,
-    bemp: string,
-    act: string
+export interface TaipeiData extends DataBase<string>{
+    
 }
 
-export interface TaiChungData {
+export interface TaoYuanData extends DataBase<string>{
+    _id: number
+}
+
+export interface TaiChungData extends DataBase<number>{
     scity: string,
     scityen: string
-    sna: string,
-    sarea: string,
-    ar: string,
-    snaen: string,
-    sareaen: string,
-    aren: string,
-    sno: string,
-    tot: string,
-    sbi: string,
-    mday: string,
-    lat: string,
-    lng: string,
-    bemp: string,
-    act: number
 }
 
-export interface KaoHsiungData {
+export interface KaoHsiungData extends DataBase<number>{
     scity: string
     scityen: string
-    sna: string,
-    sarea: string,
-    ar: string,
-    snaen: string,
-    sareaen: string,
-    aren: string,
-    sno: string,
-    tot: string,
-    sbi: string,
-    mday: string,
-    lat: string,
-    lng: string,
-    bemp: string,
-    act: number
 }
 
 export interface TypeDict {
