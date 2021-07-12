@@ -31,7 +31,7 @@ search("桃園市", "中原大學")
 
 ### JavaScript
 ```js
-const search = require("youbike-api")
+const search = require("youbike-api").default
 
 //列出該縣市所有站點
 search("桃園市")
@@ -61,8 +61,7 @@ search("桃園市", "中原大學")
     "aren": "Dalong St. / Ln. 85, Dalong St.",
     "bemp": "26",
     "act": "1"
-  },
-  ...
+  }
 ]
 ```
 
@@ -70,23 +69,22 @@ search("桃園市", "中原大學")
 ```json
 [
   {
-    "_id": 5,
-    "sno": "2005",
-    "sna": "中原大學",
-    "tot": "82",
+    "_id": 43,
+    "sno": "2043",
+    "sna": "瑞慶公園",
+    "tot": "40",
     "sbi": "0",
-    "sarea": "中壢區",
-    "mday": "20210711223721",
-    "lat": "24.957943",
-    "lng": "121.240201",
-    "ar": "中北路200號(中原大學校內懷恩樓後方空地)",
-    "sareaen": "Zhongli Dist.",
-    "snaen": "Chung Yuan Christian University",
-    "aren": "No.200, Zhongbei Rd.",
+    "sarea": "桃園區",
+    "mday": "20210625084638",
+    "lat": "25.019129",
+    "lng": "121.292954",
+    "ar": "中埔一街362號對面瑞慶公園旁人行道",
+    "sareaen": "Taoyuan Dist.",
+    "snaen": "Ruiching Park",
+    "aren": "No.362, Zhongpu 1st St.(opposite)",
     "bemp": "0",
     "act": "0"
-  },
-  ...
+  }
 ]
 ```
 
@@ -110,12 +108,11 @@ search("桃園市", "中原大學")
     "lng": "120.70472",
     "bemp": "8",
     "act": 1
-  },
-  ...
+  }
 ]
 ```
 
-### KaoHsiungData（對應TypeScript介面：KaoHsiungData）
+### 高雄市資料（對應TypeScript介面：KaoHsiungData）
 ```json
 [
   {

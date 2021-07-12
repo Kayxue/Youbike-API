@@ -1,3 +1,3 @@
 import search from "../TypeScript/index"
-search("桃園市", "中原大學")
+search("桃園市", "瑞慶公園")
     .then(console.log)
