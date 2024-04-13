@@ -47,20 +47,24 @@ search("桃園市", "中原大學")
 ```json
 [
   {
-    "sno": "0145",
-    "sna": "樹德公園",
-    "tot": "40",
-    "sbi": "14",
-    "sarea": "大同區",
-    "mday": "20210711223136",
-    "lat": "25.066688",
-    "lng": "121.516149",
-    "ar": "大龍街/大龍街85巷(東北側)",
-    "sareaen": "Datong Dist.",
-    "snaen": "Shude Park",
-    "aren": "Dalong St. / Ln. 85, Dalong St.",
-    "bemp": "26",
-    "act": "1"
+    "sno": "500101001",
+    "sna": "YouBike2.0_捷運科技大樓站",
+    "tot": 28,
+    "sbi": 0,
+    "sarea": "大安區",
+    "mday": "2024-04-13 11:02:20",
+    "lat": 25.02605,
+    "lng": 121.5436,
+    "ar": "復興南路二段235號前",
+    "sareaen": "Daan Dist.",
+    "snaen": "YouBike2.0_MRT Technology Bldg. Sta.",
+    "aren": "No.235， Sec. 2， Fuxing S. Rd.",
+    "bemp": 28,
+    "act": "1",
+    "srcUpdateTime": "2024-04-13 11:02:26",
+    "updateTime": "2024-04-13 11:02:44",
+    "infoTime": "2024-04-13 11:02:20",
+    "infoDate": "2024-04-13"
   }
 ]
 ```
@@ -69,21 +73,21 @@ search("桃園市", "中原大學")
 ```json
 [
   {
-    "_id": 43,
-    "sno": "2043",
-    "sna": "瑞慶公園",
-    "tot": "40",
-    "sbi": "0",
-    "sarea": "桃園區",
-    "mday": "20210625084638",
-    "lat": "25.019129",
-    "lng": "121.292954",
-    "ar": "中埔一街362號對面瑞慶公園旁人行道",
-    "sareaen": "Taoyuan Dist.",
-    "snaen": "Ruiching Park",
-    "aren": "No.362, Zhongpu 1st St.(opposite)",
-    "bemp": "0",
-    "act": "0"
+    "_id": 1,
+    "sno": "2001",
+    "sna": "中央大學圖書館",
+    "tot": "44",
+    "sbi": "5",
+    "sarea": "中壢區",
+    "mday": "20240413105837",
+    "lat": "24.968128",
+    "lng": "121.194666",
+    "ar": "中大路300號(中央大學校內圖書館前)",
+    "sareaen": "Zhongli Dist.",
+    "snaen": "National Central University Library",
+    "aren": "No.300, Zhongda Rd.",
+    "bemp": "34",
+    "act": "1"
   }
 ]
 ```
@@ -94,20 +98,21 @@ search("桃園市", "中原大學")
   {
     "scity": "台中市",
     "scityen": "Taichung City",
-    "sna": "YouBike2.0_社皮公園",
-    "sarea": "豐原區",
-    "ar": "西勢一街65號(對側人行道)",
-    "snaen": "YouBike2.0_Shepi Park",
-    "sareaen": "Fengyuan Dist",
-    "aren": "No.65, Xishi 1st St. (Opposite)",
-    "sno": "500609018",
-    "tot": "12",
-    "sbi": "4",
-    "mday": "20210711230200",
-    "lat": "24.24451",
-    "lng": "120.70472",
-    "bemp": "8",
-    "act": 1
+    "sna": "YouBike2.0_綠川東中山路口",
+    "sarea": "中區",
+    "ar": "綠川東街/中山路口(東側)",
+    "snaen": "YouBike2.0_Luchuan E. St. / Zhongshan Rd.",
+    "sareaen": "Central Dist",
+    "aren": "Luchuan E. St. & Zhongshan Rd. Intersection (East)",
+    "sno": "500601001",
+    "tot": "16",
+    "sbi": "7",
+    "mday": "20240413101219",
+    "lat": "24.13785",
+    "lng": "120.68337",
+    "bemp": "9",
+    "act": 1,
+    "sbi_detail": { "yb2": "7", "eyb": "0" }
   }
 ]
 ```
