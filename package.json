@@ -7,7 +7,7 @@
   "homepage": "https://github.com/Kayxue/Youbike-API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kayxue/Youbike-API"
+    "url": "git+https://github.com/Kayxue/Youbike-API.git"
   },
   "keywords": [
     "youbike",
