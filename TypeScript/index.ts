@@ -82,6 +82,8 @@ export default function <K extends keyof TypeDict>(
                 else {
                     return region === "桃園市" ? res.data.result.records : res.data.retVal
                 }
+            default:
+                throw new Error("找不到指定縣市")
         }
     });
 }

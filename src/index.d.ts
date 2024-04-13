@@ -14,7 +14,12 @@ export interface DataBase<K> {
     bemp: string;
     act: K;
 }
-export interface TaipeiData extends DataBase<string> {
+export interface TaipeiData extends Omit<DataBase<string>, "tot" | "sbi" | "lat" | "lng" | "bemp"> {
+    tot: number;
+    sbi: number;
+    lat: number;
+    lng: number;
+    bemp: number;
 }
 export interface TaoYuanData extends DataBase<string> {
     _id: number;
@@ -22,15 +27,14 @@ export interface TaoYuanData extends DataBase<string> {
 export interface TaiChungData extends DataBase<number> {
     scity: string;
     scityen: string;
-}
-export interface KaoHsiungData extends DataBase<number> {
-    scity: string;
-    scityen: string;
+    sbi_detail: {
+        yb2: string;
+        eyb: string;
+    };
 }
 export interface TypeDict {
-    "臺北市": TaipeiData;
-    "桃園市": TaoYuanData;
-    "臺中市": TaiChungData;
-    "高雄市": KaoHsiungData;
+    臺北市: TaipeiData;
+    桃園市: TaoYuanData;
+    臺中市: TaiChungData;
 }
-export default function <K extends keyof TypeDict>(region: K, station?: string): Promise<(TypeDict[K])[]>;
+export default function <K extends keyof TypeDict>(region: K, station?: string): Promise<TypeDict[K][]>;
