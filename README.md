@@ -143,7 +143,11 @@ search("桃園市", "中原大學")
 ```
 
 # API來源：
-臺北市政府 交通即時資料 開放資料專區：https://taipeicity.github.io/traffic_realtime/  
 桃園開放資料：https://data.tycg.gov.tw/  
 政府資料開放平台：https://data.gov.tw/  
 高雄城市資料平台：https://api.kcg.gov.tw/
+
+# Version 2.0 更新日誌
+* 更新臺中 API 連結
+* 因高雄市 API 端口穩定性不佳，本模組暫時不開放
+* 將台北市改成 Youbike 2.0 新 API 連結
