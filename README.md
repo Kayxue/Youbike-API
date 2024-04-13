@@ -13,7 +13,7 @@ npm install youbike-api
 * 臺北市
 * 桃園市
 * 臺中市
-* 高雄市
+* ~~高雄市~~（API 端口不穩，暫不開放查詢）
 
 ## 使用方法
 ### TypeScript
@@ -118,6 +118,7 @@ search("桃園市", "中原大學")
 ```
 
 ### 高雄市資料（對應TypeScript介面：KaoHsiungData）
+> 注意：因 API 端口不穩，所以此模組暫不開放查詢
 ```json
 [
   {
