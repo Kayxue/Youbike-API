@@ -1,6 +1,6 @@
 {
   "name": "youbike-api",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Youbike API Client",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -19,5 +19,8 @@
     "@types/node": "^26.1.2",
     "axios": "^1.19.0",
     "fuse.js": "^7.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
   }
 }
