@@ -16,7 +16,8 @@
   "author": "kayxue",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^16.0.0",
-    "axios": "^0.21.1"
+    "@types/node": "^26.1.2",
+    "axios": "^1.19.0",
+    "fuse.js": "^7.5.0"
   }
 }
